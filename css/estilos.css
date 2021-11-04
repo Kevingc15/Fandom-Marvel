@@ -1,0 +1,210 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+body {
+	background: #1D1D1F;
+	color: #fff;
+	min-height: 100vh;
+	display: flex;
+}
+
+h3{
+	text-align: center;
+	color: #dc3545;
+}
+
+
+/* --- --- NAV --- --- */
+.nav-img{
+	height: 50px;
+	width: 120px;
+}
+
+img{
+	object-fit: cover;
+}
+
+
+/* --- --- SLIDER --- --- */
+.slide-img{
+	width: auto;
+	height: 700px;
+}
+
+
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -16px;
+}
+
+.carousel__siguiente {
+	right: -16px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+	margin: 5px;
+}
+
+.carousel__elemento:hover .img-carousel {
+	transform:scale(1.05);
+	filter: grayscale(60%);
+	border-radius: 30px;
+	transition:all .2s ease-in-out;
+}
+
+.carousel__elemento:hover p {
+	transform:scale(1.05);
+	color: #dc3545;;
+	transition:all .2s ease-in-out;
+}
+
+.img-carousel{
+    object-fit: cover;
+	height: 350px;
+	width: 400px;
+}
+
+.carousel__lista p{
+	margin-top: 15px;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+
+/* --- --- UNI --- --- */
+.par-uni{
+	margin: auto;
+}
+
+
+/* --- --- CROL --- --- */
+.img-crol{
+	max-height: 700px;
+}
+
+.img-crol:hover{
+	transform:scale(1.1);
+	transition:all .2s ease-in-out;
+}
+
+.par-cont{
+	text-align: center;
+	margin: auto;
+}
+
+.img-cont{
+	height: 500px;
+}
+
+.img-cont-con:hover{
+	transform:scale(1.05);
+	filter: grayscale(60%);
+	transition:all .2s ease-in-out;
+	color: #dc3545;
+}
+
+
+/* --- --- PAGINA PERSONAJES --- --- */
+
+h2{
+	text-align: center;
+}
+
+.card{
+	margin: auto;
+	background-color: #1D1D1F;
+}
+
+.card img{
+	height: 450px;
+}
+
+.card:hover img{
+	transform:scale(1.05);
+	filter: grayscale(60%);
+	border-radius: 30px;
+	transition:all .2s ease-in-out;
+}
+
+.card:hover h3{
+	color: #f5142b;
+}
+
+/* --- --- PAGINA CRON --- --- */
+
+.img-cro{
+	border-radius: 20px;
+}
+
+.crol-cont p{
+	text-align: justify;
+}
+
+h4, ul{
+	text-align: left;
+}
+
+h4{
+	color: #dc3545;
+}
+
+/* --- --- PERSONAJES --- --- */
+
+.img-per{
+	max-height: 500px;
+}
+
+.img-banner{
+	max-height: 98px;
+}
+
+/* --- --- PELICULAS --- --- */
+
+.cards p{
+	text-align: center;
+	opacity: 70%;
+}
