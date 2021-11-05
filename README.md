@@ -1,5 +1,5 @@
 # Fandom-Marvel
-Website for practice HTML, CSS, BOOTSTRAP y JS. Is a fandom of marvel, with info about series, films, characters and story.
+Website for practice HTML, CSS, BOOTSTRAP y JS (RESPONSIVE). Is a fandom of marvel, with info about series, films, characters and story.
 
 
 _______INDEX_______
